@@ -1,0 +1,43 @@
+// SOBRENOSOTROS SCSS
+#sobrenosotros {
+    header{
+      text-align: center;
+      text-decoration: none;
+    }
+    a{
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      padding-right: 25px;
+    }
+    a:hover{
+      color: brown;
+    }
+    .container{
+        background-color: antiquewhite;
+        height: 50vh;
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     *{
+        margin: 0;
+        padding: 0;
+    }
+ }
+  // Source mixin
+@mixin make-container($padding-x: $container-padding-x) {
+    width: 100%;
+    padding-right: $padding-x;
+    padding-left: $padding-x;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+
+
+
+
+
